@@ -4,7 +4,7 @@ import urllib2
 
 # Retrieve the targetURL and return OK if targetString is found.
 targetUrl = "https://developer.apple.com/wwdc/"
-targetString = "Apple Worldwide Developers Conference 2011"
+targetString = "wwdc2012-june-11-15.jpg"
 
 class MainPage(webapp.RequestHandler):
    def get(self):
